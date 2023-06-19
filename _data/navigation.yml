@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "中文"
-    url: /_pages/chinese.md  
+    url: /chinese/
     
   - title: "CV"
     url: /cv/
