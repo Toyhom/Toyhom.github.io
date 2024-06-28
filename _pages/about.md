@@ -13,7 +13,7 @@ I am a second-year master's student in Computer Technology at Tianjin University
 
 
 # Education
-- 2022.06 - ongoing, M.Eng. in Computer Technology, Tianjin University. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
+- 2022.06 - ongoing, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
 - 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
 
 # Data
