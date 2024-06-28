@@ -112,7 +112,17 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.semanticscholar %}
-        <li><a href="{{ author.semanticscholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Semantic Scholar</a></li>
+        <li>
+            <a href="https://www.semanticscholar.org/{{ author.semantic_scholar }}">
+                <svg viewBox="0 0 552.2 100" aria-labelledby="s2-logo-full-title s2-logo-full-desc" role="img" class="logo logo--logo-full">
+                    <title id="s2-logo-full-title">Semantic Scholar</title>
+                    <desc id="s2-logo-full-desc">Semantic Scholar Logo</desc>
+                    <!-- 示例路径数据 -->
+                    <path d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z" fill="black"/>
+                </svg>
+                Semantic Scholar
+            </a>
+        </li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
