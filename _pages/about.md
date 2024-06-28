@@ -22,13 +22,13 @@ I am a second-year master's student in Computer Technology at Tianjin University
 
 # Publication
 
+**DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
+Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai  
+NAACL 2024. [[Link]](https://aclanthology.org/2024.naacl-long.341)
+
 **Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona**  
 *<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou  
 ACL 2023. [[Link]](https://aclanthology.org/2023.acl-long.299)
-
-**DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
-Jiao Ou\*, Junda Lu\*, Che Liu\*, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai  
-NAACL 2024. [[Link]](https://aclanthology.org/2024.naacl-long.341)
 
 
 # Service
