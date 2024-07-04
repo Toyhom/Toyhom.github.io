@@ -24,6 +24,7 @@ I am a second-year master's student in Computer Technology at Tianjin University
 
 **MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space**
 *<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, Xiaojia Jin, Jijun Zhang, Ruifang He, Yuexian Hou
+Arxiv. [[Link]](https://arxiv.org/pdf/2407.02345.pdf)
 
 **DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
 Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai  
