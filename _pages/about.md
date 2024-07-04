@@ -22,6 +22,9 @@ I am a second-year master's student in Computer Technology at Tianjin University
 
 # Publication
 
+**MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space**
+*<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, Xiaojia Jin, Jijun Zhang, Ruifang He, Yuexian Hou
+
 **DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
 Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai  
 NAACL 2024. [[Link]](https://aclanthology.org/2024.naacl-long.341)
@@ -32,4 +35,4 @@ ACL 2023. [[Link]](https://aclanthology.org/2023.acl-long.299)
 
 
 # Service
-Reviewer: EMNLP
+Reviewer: ACL ARR
