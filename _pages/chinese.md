@@ -22,7 +22,7 @@ redirect_from:
 
 # 发表论文
 
-**RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems**
+**RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems**  
 *<ins>Yihong Tang</ins>*, Bo Wang, Xu Wang, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou
 Arxiv. [[Link]](https://arxiv.org/pdf/2409.16727v1.pdf)
 
