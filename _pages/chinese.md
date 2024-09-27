@@ -11,7 +11,7 @@ redirect_from:
 
 
 <!-- ## About Me -->
-我是天津大学计算机技术专业的二年级硕士研究生。我的研究兴趣主要包括自然语言处理 (NLP)、个性化对话系统和角色扮演。
+我是天津大学计算机技术专业的三年级硕士研究生。我的研究兴趣主要包括自然语言处理 (NLP)、个性化对话系统和角色扮演。
 
 # 教育经历
 - 2022.06 - 现在，计算机技术硕士，天津大学，中国天津。导师：[Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm)。
@@ -22,6 +22,14 @@ redirect_from:
 
 # 发表论文
 
+**RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems**
+*<ins>Yihong Tang</ins>*, Bo Wang, Xu Wang, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou
+Arxiv. [[Link]](https://arxiv.org/pdf/2409.16727v1.pdf)
+
+**MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space**  
+*<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, Xiaojia Jin, Jijun Zhang, Ruifang He, Yuexian Hou  
+EMNLP 2024. [[Link]](https://arxiv.org/pdf/2407.02345.pdf)
+
 **DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
 Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai  
 NAACL 2024. [[Link]](https://aclanthology.org/2024.naacl-long.341)
@@ -30,7 +38,8 @@ NAACL 2024. [[Link]](https://aclanthology.org/2024.naacl-long.341)
 *<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou  
 ACL 2023. [[Link]](https://aclanthology.org/2023.acl-long.299)
 
+
 # 服务
-审稿人: EMNLP, ACL ARR
+审稿人: ACL ARR
 
 
