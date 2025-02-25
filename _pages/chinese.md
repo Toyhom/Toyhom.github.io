@@ -14,7 +14,7 @@ redirect_from:
 我是哈尔滨工业大学（深圳）计算机技术专业的一年级博士研究生。我的研究兴趣主要包括自然语言处理 (NLP)、个性化对话智能体和角色扮演。
 
 # 教育经历
-- 2025.03 - Present: 计算机技术博士， 哈尔滨工业大学（深圳）, 中国深圳. 导师: [Dr. Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
+- 2025.03 - Present，计算机技术博士， 哈尔滨工业大学（深圳）, 中国深圳. 导师: [Dr. Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
 - 2022.06 - 2025.01，计算机技术硕士，天津大学，中国天津. 导师：[Dr. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
 - 2018.09 - 2022.06，计算机科学与技术学士，东北大学秦皇岛分校，中国秦皇岛.
 
