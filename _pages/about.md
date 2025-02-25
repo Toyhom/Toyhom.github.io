@@ -9,8 +9,7 @@ redirect_from:
 ---
 
 <!-- ## About Me -->
-I am a third-year master's student in Computer Technology at Tianjin University. My research interests mainly include Natural Language Processing (NLP), personalized dialogue systems, and role-playing.
-
+I am a first-year PhD student at Harbin Institute of Technology, Shenzhen, specializing in Computer Technology. My primary research interests include Natural Language Processing (NLP), personalized dialogue systems, and role-playing.
 
 # Education
 - 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
