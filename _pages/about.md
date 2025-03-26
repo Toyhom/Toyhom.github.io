@@ -65,40 +65,38 @@ Arxiv.
 
 # 🤝 Friends 
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
-  <div style="flex: 0 0 300px; background: #f8f9fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+# 🤝 Friends 
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 20px;">
+
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
     <a href="https://altria1122.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="display: flex; align-items: center; gap: 15px;">
-        <img src="https://altria1122.github.io/img/Altria.png" alt="Altria" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
-        <div>
-          <div style="font-weight: 600; color: #2c3e50;">Altria</div>
-          <div style="font-size: 0.9em; color: #7f8c8d;">涛涛</div>
-        </div>
+      <div style="text-align: center;">
+        <img src="https://altria1122.github.io/img/Altria.png" alt="Altria" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">Altria</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">涛涛</p>
       </div>
     </a>
   </div>
 
-  <div style="flex: 0 0 300px; background: #f8f9fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
     <a href="https://toyhom.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="display: flex; align-items: center; gap: 15px;">
-        <img src="/img/tyh.png" alt="Toyhom" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
-        <div>
-          <div style="font-weight: 600; color: #2c3e50;">Toyhom</div>
-          <div style="font-size: 0.9em; color: #7f8c8d;">晟晟</div>
-        </div>
+      <div style="text-align: center;">
+        <img src="/img/tyh.png" alt="Toyhom" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">Toyhom</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">唐博</p>
       </div>
     </a>
   </div>
 
-  <div style="flex: 0 0 300px; background: #f8f9fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
     <a href="https://blog.masteren.top/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="display: flex; align-items: center; gap: 15px;">
-        <img src="/img/lu.jpg" alt="MasterenLu" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
-        <div>
-          <div style="font-weight: 600; color: #2c3e50;">MasterenLu</div>
-          <div style="font-size: 0.9em; color: #7f8c8d;">露露</div>
-        </div>
+      <div style="text-align: center;">
+        <img src="/img/lu.jpg" alt="MasterenLu" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">MasterenLu</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">小露露</p>
       </div>
     </a>
   </div>
+
 </div>
