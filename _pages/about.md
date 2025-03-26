@@ -67,7 +67,7 @@ Arxiv.
 <table>
   <tr>
     <td><img src="https://img.icons8.com/color/48/000000/link.png" width="20"/></td>
-    <td><a href="#">Alex's AI Lab</a> - 对话系统研究者</td>
+    <td><a href="#">[Alex's AI Lab](https://altria1122.github.io/)</a> - 对话系统研究者</td>
   </tr>
   <tr>
     <td><img src="https://img.icons8.com/color/48/000000/link.png" width="20"/></td>
