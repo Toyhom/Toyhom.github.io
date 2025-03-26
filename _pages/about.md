@@ -64,13 +64,31 @@ Arxiv.
 
 # 🤝 Friends 
 
-<table>
-  <tr>
-    <td><img src="https://altria1122.github.io/link/img/Altria.png" width="20"/></td>
-    <td><a href="#">https://altria1122.github.io/</a> - 涛涛</td>
-  </tr>
-  <tr>
-    <td><img src="https://img.icons8.com/color/48/000000/link.png" width="20"/></td>
-    <td><a href="#">Lena's Lens</a> - 街头摄影达人</td>
-  </tr>
-</table>
+<div class="flink-list">
+  <div class="flink-list-item">
+    <a href="https://altria1122.github.io/" title="Altria" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src="/img/Altria.png" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="Altria">
+      </div>
+      <div class="flink-item-name">Altria</div>
+      <div class="flink-item-desc" title="涛涛">涛涛</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://toyhom.github.io/" title="Toyhom" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src="/img/tyh.png" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="Toyhom">
+      </div>
+      <div class="flink-item-name">Toyhom</div>
+      <div class="flink-item-desc" title="唐博">唐博</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.masteren.top/" title="MasterenLu" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src="/img/lu.jpg" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="MasterenLu">
+      </div>
+      <div class="flink-item-name">MasterenLu</div>
+      <div class="flink-item-desc" title="小露露">小露露</div>
+    </a>
+  </div></div>
