@@ -78,7 +78,7 @@ Arxiv.
   </div>
 
   <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
-    <a href="https://toyhom.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
+    <a href="https://weoshin.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
       <div style="text-align: center;">
         <img src="https://weoshin.github.io/img/avatar.jpg" alt="Toyhom" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
         <h3 style="margin: 5px 0; color: #2c3e50;">Weoshin</h3>
