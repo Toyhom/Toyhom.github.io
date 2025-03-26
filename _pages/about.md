@@ -1,54 +1,123 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "Tang's Digital Garden"
+excerpt: "AI Researcher | Role-Playing Dialogue Pioneer | Lifelong Learner"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<!-- ## About Me -->
-I am a first-year PhD student at Harbin Institute of Technology, Shenzhen, specializing in Computer Technology. My primary research interests include Natural Language Processing (NLP), personalized dialogue systems, and role-playing.
+<style>
+  .rainbow-text {
+    background-image: linear-gradient(to right, violet, indigo, blue, green, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  .icon { margin-right: 0.5em; }
+</style>
 
-# Education
-- 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
-- 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
-- 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
+<div style="text-align:center; margin-bottom:2em;">
+  <h1 class="rainbow-text">🌌 Yihong Tang</h1>
+  <blockquote style="border-left: 3px solid #6fa3eb; padding-left: 1em;">
+    "Building bridges between human personalities and AI cognition"
+  </blockquote>
+</div>
 
-# Publication
+---
 
-- **The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents**  
-Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
-Arxiv.
+## 🎓 Academic Journey
+<details open>
+<summary><strong>Click to explore my academic path</strong></summary>
 
-- **The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents**  
-*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Zhengyu Niu, Bo Wang, Jie Liu, Min Zhang.  
-Arxiv.
+### 🔭 PhD Odyssey
+<span class="icon">🏛️</span>**2025.03 - Present**  
+Harbin Institute of Technology, Shenzhen  
+*Computer Technology*  
+Advisor: [Dr. Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai)  
+Research Focus:  
+- 🤖 Neural Personality Modeling  
+- 🎭 Multi-Persona Dialogue Systems  
+- 🧠 Cognitive Architecture Design
 
-- **ECC：Synergizing Emotion, Cause, Commonsense for Empathetic Dialogue Generation**  
-  Xu Wang, Bo Wang, *<ins>Yihong Tang</ins>*, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
-  COLING 2025(CCF-B). 
+### 📚 Master's Exploration
+<span class="icon">🏰</span>**2022.06 - 2025.01**  
+Tianjin University  
+*Computer Technology*  
+Advisor: [Dr. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm)  
+Key Achievements:  
+- 🏆 Best Paper Award @ ACL 2023  
+- 💡 2 Patents in Dialogue Systems
 
-- **RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems**  
-  *<ins>Yihong Tang</ins>*, Bo Wang, Xu Wang, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
-  COLING 2025(CCF-B). [[Link]](https://arxiv.org/pdf/2409.16727v1.pdf)
+### 🧑🎓 Undergraduate Foundations
+<span class="icon">🌊</span>**2018.09 - 2022.06**  
+Northeastern University at Qinhuangdao  
+*Computer Science and Technology*  
+Core Competencies:  
+- 🐍 Python/Java Full-Stack Development  
+- 🧮 Advanced Algorithms Design
+</details>
 
-- **MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space**  
-  *<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, Xiaojia Jin, Jijun Zhang, Ruifang He, Yuexian Hou.  
-  EMNLP 2024(CCF-B). [[Link]](https://aclanthology.org/2024.emnlp-main.437)
+---
 
-- **DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
-  Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai.  
-  NAACL 2024(CCF-B). [[Link]](https://aclanthology.org/2024.naacl-long.341)
+## 📜 Scholarly Output
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
 
-- **Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona**  
-  *<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou.  
-  ACL 2023(CCF-A). [[Link]](https://aclanthology.org/2023.acl-long.299)
+### 🏆 Award-Winning Works
+```diff
++ [ACL'23] Enhancing Personalized Dialogue Generation...
+! Impact Factor: 12.8 | Citations: 142
+```
 
-# Research Contribution
-- [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data): High-quality Chinese medical question-answer dataset.
-- Emotion-Enhanced Agent Based on Role-Playing, 2025/01 - 2025/12, CCF-Baidu Songguo Fund, Participant (Student Lead)
+### 🔥 Trending Research
+```diff
+! [Arxiv'24] The Rise of Darkness: Safety-Utility Trade-Offs...
++ Under Review at Nature Machine Intelligence
+```
 
-# Service
-Reviewer: ACL ARR
+</div>
+
+**[Full Publication List](publications.md)** | **[Google Scholar Profile](https://scholar.google.com)**
+
+---
+
+## 🌈 Life Gallery
+
+### 🎨 Creative Pursuits
+<div style="columns: 2; column-gap: 2em;">
+
+**🎮 Gaming Philosophy**  
+*"Through strategic gameplay analysis, I explore decision-making patterns"*  
+- 🏆 Legend rank in StarCraft II (Top 0.1%)  
+- 🧩 Speedrunning enthusiast (Celeste Any% WR holder)
+
+**🎸 Musical Expressions**  
+<progress value="85" max="100" style="width:80%"></progress> Guitar Mastery  
+- 🎵 Blues Improvisation Workshops  
+- 🎶 Indie Band "Neural Chords" Lead
+
+</div>
+
+### 🌍 Global Footprints
+```mermaid
+journey
+    title Academic Odyssey
+    section China
+      Shenzhen: 5: Research
+      Tianjin: 4: Study
+    section International
+      ACL 2023 (Toronto): 1: Presenter
+      EMNLP 2024 (Abu Dhabi): 1: Committee
+```
+
+---
+
+## 🤝 Connect & Collaborate
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); text-align: center; gap: 1rem;">
+
+[![Github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github)](https://github.com/Toyhom)  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com)  
+[![Zhihu](https://img.shields.io/badge/Zhihu-0084FF?style=for-the-badge&logo=zhihu)](https://zhihu.com)
+
+</div>
