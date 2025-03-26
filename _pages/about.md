@@ -64,31 +64,38 @@ Arxiv.
 
 # 🤝 Friends 
 
-<div class="flink-list">
-  <div class="flink-list-item">
-    <a href="https://altria1122.github.io/" title="Altria" target="_blank">
-      <div class="flink-item-icon">
-        <img class="no-lightbox" src="/img/Altria.png" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="Altria">
+# 🤝 Friends 
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 20px;">
+
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <a href="https://altria1122.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div style="text-align: center;">
+        <img src="/img/Altria.png" alt="Altria" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">Altria</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">涛涛</p>
       </div>
-      <div class="flink-item-name">Altria</div>
-      <div class="flink-item-desc" title="涛涛">涛涛</div>
     </a>
   </div>
-  <div class="flink-list-item">
-    <a href="https://toyhom.github.io/" title="Toyhom" target="_blank">
-      <div class="flink-item-icon">
-        <img class="no-lightbox" src="/img/tyh.png" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="Toyhom">
+
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <a href="https://toyhom.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div style="text-align: center;">
+        <img src="/img/tyh.png" alt="Toyhom" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">Toyhom</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">唐博</p>
       </div>
-      <div class="flink-item-name">Toyhom</div>
-      <div class="flink-item-desc" title="唐博">唐博</div>
     </a>
   </div>
-  <div class="flink-list-item">
-    <a href="https://blog.masteren.top/" title="MasterenLu" target="_blank">
-      <div class="flink-item-icon">
-        <img class="no-lightbox" src="/img/lu.jpg" onerror="this.onerror=null;this.src=&quot;/img/friend_404.gif&quot;" alt="MasterenLu">
+
+  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <a href="https://blog.masteren.top/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div style="text-align: center;">
+        <img src="/img/lu.jpg" alt="MasterenLu" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+        <h3 style="margin: 5px 0; color: #2c3e50;">MasterenLu</h3>
+        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">小露露</p>
       </div>
-      <div class="flink-item-name">MasterenLu</div>
-      <div class="flink-item-desc" title="小露露">小露露</div>
     </a>
-  </div></div>
+  </div>
+
+</div>
