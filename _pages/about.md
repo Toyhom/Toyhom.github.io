@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "🌱 Yihong Tang's Homepage"
+excerpt: "First-year PhD @ HITsz | NLP Researcher"
 author_profile: true
 redirect_from: 
   - /about/
