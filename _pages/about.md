@@ -13,6 +13,7 @@ redirect_from:
 I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;">Harbin Institute of Technology, Shenzhen</span>, specializing in Computer Technology. My primary research interests include <span style="color: #4CAF50;">Natural Language Processing (NLP), personalized dialogue systems, and role-playing</span>.
 </div>
 
+-------------
 
 # 🎓 Education
 - 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
@@ -61,6 +62,12 @@ Arxiv.
 - **📸 Photography**: Urban landscapes | AI-generated art
 - **🎮 Game Design**: Developed 2 text-based RPG games
 - **📖 Technical Writing**: Regular contributor to [AI Weekly Digest](https://example.com) -->
+
+
+
+
+---------
+
 
 
 # 🤝 Friends 
