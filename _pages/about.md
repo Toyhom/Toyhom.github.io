@@ -66,7 +66,7 @@ Arxiv.
 
 <table>
   <tr>
-    <td><img src="https://img.icons8.com/color/48/000000/link.png" width="20"/></td>
+    <td><img src="https://altria1122.github.io/link/img/Altria.png" width="20"/></td>
     <td><a href="#">https://altria1122.github.io/</a> - 涛涛</td>
   </tr>
   <tr>
