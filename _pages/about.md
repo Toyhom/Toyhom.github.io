@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "🌱 Yihong Tang's Homepage"
+title: ""
 excerpt: "First-year PhD @ HITsz | NLP Researcher"
 author_profile: true
 redirect_from: 
@@ -8,20 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-# 🌟 About Me 
+<!-- 🌱 Yihong Tang's Homepage-->
+
+## 🌟 About Me 
 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
 I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;">Harbin Institute of Technology, Shenzhen</span>, specializing in Computer Technology. My primary research interests include <span style="color: #4CAF50;">Natural Language Processing (NLP), personalized dialogue systems, and role-playing</span>.
 </div>
 
 -------------
 
-# 🎓 Education
+## 🎓 Education
 - 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
 - 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
 - 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
 
 
-# 📚 Publication
+## 📚 Publication
 
 - **The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents**  
 Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
@@ -51,7 +53,7 @@ Arxiv.
   *<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou.  
   ACL 2023(CCF-A). [[Link]](https://aclanthology.org/2023.acl-long.299)
 
-# 🔬 Research Contribution
+## 🔬 Research Contribution
 - [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data): High-quality Chinese medical question-answer dataset.
 - Emotion-Enhanced Agent Based on Role-Playing, 2025/01 - 2025/12, CCF-Baidu Songguo Fund, Participant (Student Lead) 
 - Reviewer: ACL ARR
@@ -70,7 +72,7 @@ Arxiv.
 
 
 
-# 🤝 Friends 
+## 🤝 Friends 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 20px;">
 
