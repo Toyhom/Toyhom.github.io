@@ -1,61 +1,69 @@
 ---
 permalink: /
-title: "🌱 Yihong Tang's Homepage"
-excerpt: "First-year PhD @ HITsz | NLP Researcher | Role-Play Enthusiast"
+title: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=Welcome+to+My+Academic+Universe" style="border-radius:10px;margin:20px 0;">
+# 🌟 About Me 
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;">Harbin Institute of Technology, Shenzhen</span>, specializing in Computer Technology. My primary research interests include <span style="color: #4CAF50;">Natural Language Processing (NLP), personalized dialogue systems, and role-playing</span>.
 </div>
 
-## 🎓 About Me 
-<p style="font-size:1.1em; line-height:1.6;">
-  <img src="https://img.icons8.com/clouds/100/000000/artificial-intelligence.png" width="25"/> I'm a passionate NLP researcher exploring the frontiers of <strong>personalized dialogue systems</strong> and <strong>AI role-playing</strong>. When not decoding language models, you'll find me capturing moments through my camera lens or experimenting with latte art ☕
-</p>
 
----
+# 🎓 Education
+- 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
+- 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
+- 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
 
-## 🚀 Research Journey
 
-### 📚 Education Timeline
-<table style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td style="padding:10px; border-bottom:1px solid #ddd;">🎓 2025.03 - Present</td>
-    <td style="padding:10px; border-bottom:1px solid #ddd;">
-      <strong>Ph.D. in Computer Technology</strong><br>
-      Harbin Institute of Technology, Shenzhen<br>
-      Advisor: <a href="https://faculty.hitsz.edu.cn/chenkehai" target="_blank">Dr. Kehai Chen</a>
-    </td>
-  </tr>
-  <!-- 其他教育经历表格行 -->
-</table>
+# 📚 Publication
 
-### 🌟 Featured Publications
-<div style="background:#f8f9fa; padding:15px; border-radius:8px; margin:15px 0;">
-  <h4 style="color:#2c3e50; margin-top:0;">🔬 Recent Breakthroughs</h4>
-  <ul>
-    <li>📄 <strong>The Power of Personality</strong> (Arxiv) <a href="#" style="color:#3498db;">[PDF]</a></li>
-    <li>🛡️ <strong>The Rise of Darkness</strong> (Arxiv) <a href="#" style="color:#3498db;">[PDF]</a></li>
-    <!-- 其他出版物 -->
-  </ul>
-</div>
+- **The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents**  
+Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
+Arxiv.
 
----
+- **The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents**  
+*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Zhengyu Niu, Bo Wang, Jie Liu, Min Zhang.  
+Arxiv.
 
-## 🌈 Life Gallery
+- **ECC：Synergizing Emotion, Cause, Commonsense for Empathetic Dialogue Generation**  
+  Xu Wang, Bo Wang, *<ins>Yihong Tang</ins>*, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
+  COLING 2025(CCF-B). 
 
-### 📸 Creative Pursuits
-```diff
-+ Photography Enthusiast | 城市街拍 × 自然风光
-+ Latte Art Novice       | 正在解锁「天鹅拉花」技能
-+ Board Game Collector   | 已收藏50+款策略类桌游
-```
+- **RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems**  
+  *<ins>Yihong Tang</ins>*, Bo Wang, Xu Wang, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
+  COLING 2025(CCF-B). [[Link]](https://arxiv.org/pdf/2409.16727v1.pdf)
 
-### 🤝 Friends Network
+- **MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space**  
+  *<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, Xiaojia Jin, Jijun Zhang, Ruifang He, Yuexian Hou.  
+  EMNLP 2024(CCF-B). [[Link]](https://aclanthology.org/2024.emnlp-main.437)
+
+- **DialogBench: Evaluating LLMs as Human-like Dialogue Systems**  
+  Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, Fuzheng Zhang, Di Zhang, Kun Gai.  
+  NAACL 2024(CCF-B). [[Link]](https://aclanthology.org/2024.naacl-long.341)
+
+- **Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona**  
+  *<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou.  
+  ACL 2023(CCF-A). [[Link]](https://aclanthology.org/2023.acl-long.299)
+
+# 🔬 Research Contribution
+- [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data): High-quality Chinese medical question-answer dataset.
+- Emotion-Enhanced Agent Based on Role-Playing, 2025/01 - 2025/12, CCF-Baidu Songguo Fund, Participant (Student Lead) 
+- Reviewer: ACL ARR
+
+
+<!-- # 🌈 Life Beyond Research
+# 🎨 Creative Corner
+- **📸 Photography**: Urban landscapes | AI-generated art
+- **🎮 Game Design**: Developed 2 text-based RPG games
+- **📖 Technical Writing**: Regular contributor to [AI Weekly Digest](https://example.com) -->
+
+# 🤝 Friends 
+
 <table>
   <tr>
     <td><img src="https://img.icons8.com/color/48/000000/link.png" width="20"/></td>
@@ -66,26 +74,3 @@ redirect_from:
     <td><a href="#">Lena's Lens</a> - 街头摄影达人</td>
   </tr>
 </table>
-
-### 🗓️ Life Moments
-> "2023.09 | 在深圳人才公园拍到了年度最佳长曝光夜景 🌃<br>
-> 2024.03 | 首次尝试烘焙的抹茶慕斯蛋糕大成功 🍰"
-
----
-
-## 📬 Let's Connect
-<div align="center">
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.icons8.com/color/96/000000/email.png" width="40"/>
-  </a>
-  <a href="https://github.com/yourusername" target="_blank">
-    <img src="https://img.icons8.com/material-rounded/96/000000/github.png" width="40"/>
-  </a>
-  <a href="https://twitter.com/yourhandle" target="_blank">
-    <img src="https://img.icons8.com/color/96/000000/twitter-squared.png" width="40"/>
-  </a>
-</div>
-
-<hr style="border:1px dashed #ddd; margin:30px 0;">
-
-<center>🕊️ Keep Curiosity Alive | Updated: {{ site.time | date: '%B %d, %Y' }}</center>
