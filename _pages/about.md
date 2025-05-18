@@ -26,12 +26,12 @@ I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;"
 ## 📚 Publication
 
 - **The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents**  
-Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
-Arxiv.
+  Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
+  Arxiv.
 
 - **The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents**  
-*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Zhengyu Niu, Bo Wang, Jie Liu, Min Zhang.  
-Arxiv.
+  *<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Zhengyu Niu, Bo Wang, Jie Liu, Min Zhang.  
+  ACL 2025 (Findings).
 
 - **ECC：Synergizing Emotion, Cause, Commonsense for Empathetic Dialogue Generation**  
   Xu Wang, Bo Wang, *<ins>Yihong Tang</ins>*, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
