@@ -19,8 +19,8 @@ redirect_from:
 -------------
 
 ## 🎓 教育经历
-- 2025年3月 - 至今：计算技术博士，哈尔滨工业大学（深圳），中国深圳。导师：[Dr.Chen](https://faculty.hitsz.edu.cn/chenkehai) 。
-- 2022年6月 - 2025年1月：计算技术硕士，天津大学，中国天津。导师：[Dr.Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm) 。
+- 2025年3月 - 至今：计算技术博士，哈尔滨工业大学（深圳），中国深圳。导师：[Dr. kehai Chen](https://faculty.hitsz.edu.cn/chenkehai) 。
+- 2022年6月 - 2025年1月：计算技术硕士，天津大学，中国天津。导师：[Dr. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm) 。
 - 2018年9月 - 2022年6月：计算机科学与技术工学学士，东北大学秦皇岛分校，中国秦皇岛。
 
 ## 📚 Publication
