@@ -25,15 +25,15 @@ I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;"
 
 ## 📚 Publication
 
-- MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching.
+- **MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching**
   Liang Yue, *<ins>Yihong Tang</ins>*, Kehai Chen, et al.
   NeurIPS 2025(CCF-A).
 
-- Thinking in Character: Advancing Role-Playing Agents with Role-Aware Reasoning.
-  *<ins>Yihong Tang</ins>*, Kehai Chen, et al. 
+- **Thinking in Character: Advancing Role-Playing Agents with Role-Aware Reasoning**
+  *<ins>Yihong Tang</ins>*, Kehai Chen, et al.
   NeurIPS 2025(CCF-A).
 
-- **Exploiting Prompt-Induced Confidence for Black-Box Attacks on LLMs.**
+- **Exploiting Prompt-Induced Confidence for Black-Box Attacks on LLMs**
   Meina Chen, *<ins>Yihong Tang</ins>*, Kehai Chen.
   EMNLP 2025(CCF-B)
 
