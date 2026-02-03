@@ -75,8 +75,8 @@ redirect_from:
 
 ## 🔬 科研贡献
 - [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data)：高质量的中文医疗问答数据集。
-- 基于角色扮演的情绪增强对话智能体，2025年1月 - 2025年12月，CCF-百度松果基金，参与者（学生第一负责人）。
-- 审稿人：ACL ARR
+- 基于角色扮演的情绪增强对话智能体，2025年1月 - 2025年12月，CCF-百度松果基金，参与（学生第一负责人）。
+- 审稿人：ACL ARR, NeurIPS, ICML, Neural Networks
 
 ---------
 
