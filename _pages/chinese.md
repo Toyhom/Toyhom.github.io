@@ -12,10 +12,18 @@ redirect_from:
 <!-- 🌱 唐义鸿的主页 -->
 
 ## 🌟 关于我 
-<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-我是一名计算技术专业的博士一年级研究生，就读于<span style="color: #2196F3; font-weight: 500;">哈尔滨工业大学（深圳）</span>。我的主要研究方向包括<span style="color: #4CAF50;">自然语言处理、情感智能体以及角色扮演</span>。
+## 🌟 About Me 
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); line-height: 1.6;">
+    <p style="margin-bottom: 15px;">
+        自2025年3月起，我在 <span style="color: #2196F3; font-weight: 500;">哈尔滨工业大学（深圳）</span> 计算机技术专业攻读博士学位，师从 <strong>Prof. Kehai Chen</strong>。自2025年9月起，我也在 <span style="color: #2196F3; font-weight: 500;">深圳河套学院（SLAI）</span> 进行研究学习。在此之前，我于 <span style="color: #2196F3; font-weight: 500;">天津大学</span> 获得了硕士学位，师从 <strong>Prof. Bo Wang</strong>。
+    </p>
+    <p style="margin-bottom: 15px;">
+        我的主要研究兴趣集中在 <span style="color: #4CAF50; font-weight: 500;">自然语言处理（NLP）、大语言模型（LLMs）、智能体（Agents） 以及 角色扮演（Role-Playing）</span>。 我致力于探索 LLM 在模拟人类行为与交互方面的潜力。具体而言，我关注如何构建具有更强推理能力和个性化的角色扮演智能体，并深入研究这些智能体在复杂交互场景下的鲁棒性。我的目标是推动智能体从单一工具向更拟人的交互伙伴进化。
+    </p>
+    <p>
+        我非常乐意参与学术讨论和合作，请随时与我联系！
+    </p>
 </div>
-
 -------------
 
 ## 🎓 教育经历
