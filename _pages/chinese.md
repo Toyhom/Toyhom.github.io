@@ -33,13 +33,25 @@ redirect_from:
 
 ## 📚 Publication
 
+- **MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching**  
+  Liang Yue, *<ins>Yihong Tang</ins>*, Kehai Chen, et al.  
+  NeurIPS 2025(CCF-A).
+
+- **Thinking in Character: Advancing Role-Playing Agents with Role-Aware Reasoning**  
+  *<ins>Yihong Tang</ins>*, Kehai Chen, et al.  
+  NeurIPS 2025(CCF-A).
+
+- **Exploiting Prompt-Induced Confidence for Black-Box Attacks on LLMs**  
+  Meina Chen, *<ins>Yihong Tang</ins>*, Kehai Chen.  
+  EMNLP 2025(CCF-B)
+
 - **The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents**  
   Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, Juntao Li, Min Zhang.  
   Arxiv.
 
 - **The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents**  
   *<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Zhengyu Niu, Bo Wang, Jie Liu, Min Zhang.  
-  Arxiv.
+  ACL 2025 (Findings).
 
 - **ECC：Synergizing Emotion, Cause, Commonsense for Empathetic Dialogue Generation**  
   Xu Wang, Bo Wang, *<ins>Yihong Tang</ins>*, Dongming Zhao, Jing Liu, Jijun Zhang, Ruifang He, Yuexian Hou.  
