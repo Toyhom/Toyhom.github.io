@@ -11,11 +11,24 @@ redirect_from:
 <!-- 🌱 Yihong Tang's Homepage-->
 
 ## 🌟 About Me 
-<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-I am a first-year PhD student at <span style="color: #2196F3; font-weight: 500;">Harbin Institute of Technology, Shenzhen</span>, specializing in Computer Technology. My primary research interests include <span style="color: #4CAF50;">Natural Language Processing (NLP), personalized dialogue systems, and role-playing</span>.
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); line-height: 1.6;">
+    <p style="margin-bottom: 15px;">
+        Since March 2025, I have been pursuing my Ph.D. degree in Computer Technology at <span style="color: #2196F3; font-weight: 500;">Harbin Institute of Technology, Shenzhen (HITSZ)</span>, supervised by <strong>Prof. Kehai Chen</strong>. Since September 2025, I have also been conducting research at the <span style="color: #2196F3; font-weight: 500;">Shenzhen Loop Area Institute (SLAI)</span>. Prior to this, I received my Master's degree from <span style="color: #2196F3; font-weight: 500;">Tianjin University</span>, under the supervision of <strong>Prof. Bo Wang</strong>.
+    </p>
+    <p style="margin-bottom: 15px;">
+        My primary research interests center on <span style="color: #4CAF50; font-weight: 500;">Natural Language Processing (NLP), Large Language Models (LLMs), Agents, and Role-Playing</span>.
+    </p>
+    <p style="margin-bottom: 15px;">
+        I am dedicated to exploring the potential of LLMs in simulating human behaviors and interactions. Specifically, I focus on building Role-Playing Agents with enhanced reasoning capabilities and personalization, while investigating their robustness in complex interactive scenarios. My goal is to evolve agents from mere tools into more human-like interactive partners.
+    </p>
+    <p>
+        I am always open to academic discussions and collaborations. Please feel free to reach out!
+    </p>
 </div>
-
 -------------
+
+
+<!-- # , advised by <strong>Prof. Benyou Wang</strong>  -->
 
 ## 🎓 Education
 - 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
