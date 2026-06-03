@@ -25,8 +25,8 @@ author_profile: true
 
 ## 🎓 Education
 - 2025.09 - Present: Research training in Computer Technology, Shenzhen Loop Area Institute, Shenzhen, China. Advisor: Prof. [Min Zhang](https://www.slai.edu.cn/teacher/149).
-- 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Dr. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
-- 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Dr. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
+- 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Prof. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
+- 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Prof. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
 - 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
 
 ## 🧭 Research Overview
