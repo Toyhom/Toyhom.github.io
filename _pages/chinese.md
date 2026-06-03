@@ -47,42 +47,135 @@ redirect_from:
 - 基于角色扮演的情绪增强对话智能体，2025年1月 - 2025年12月，CCF-百度松果基金，参与（学生第一负责人）。
 - 审稿人：ACL ARR, NeurIPS, ICML, Neural Networks
 
----------
+<style>
+  .friend-egg {
+    margin-top: 1.5rem;
+  }
 
-## 🤝 友链
+  .friend-egg__grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 20px;
+  }
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 20px;">
+  .friend-egg__card {
+    background: #fff;
+    border: 1px solid #e7ebef;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
 
-  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
-    <a href="https://altria1122.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="text-align: center;">
-        <img src="https://altria1122.github.io/img/Altria.png" alt="Altria" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
-        <h3 style="margin: 5px 0; color: #2c3e50;">Altria</h3>
-        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">涛涛</p>
-      </div>
-    </a>
-  </div>
+  .friend-egg__card:hover {
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
 
-  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
-    <a href="https://weoshin.github.io/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="text-align: center;">
-        <img src="https://weoshin.github.io/img/avatar.jpg" alt="Toyhom" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
-        <h3 style="margin: 5px 0; color: #2c3e50;">Weoshin</h3>
-        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">晟晟</p>
-      </div>
-    </a>
-  </div>
+  .friend-egg__link {
+    color: inherit;
+    text-decoration: none;
+  }
 
-  <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s;">
-    <a href="https://blog.masteren.top/" target="_blank" style="text-decoration: none; color: inherit;">
-      <div style="text-align: center;">
-        <img src="https://altria1122.github.io//img/luluAvatar.gif" alt="MasterenLu" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
-        <h3 style="margin: 5px 0; color: #2c3e50;">MasterenLu</h3>
-        <p style="margin: 0; color: #7f8c8d; font-size: 0.9em;">露露</p>
-      </div>
-    </a>
-  </div>
+  .friend-egg__inner {
+    text-align: center;
+  }
 
-</div>
+  .friend-egg__avatar {
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 80px;
+  }
+
+  .friend-egg__name {
+    color: #2c3e50;
+    margin: 5px 0;
+  }
+
+  .friend-egg__nick {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin: 0;
+  }
+</style>
+
+<div id="friend-easter-egg" class="friend-egg" hidden></div>
+
+<script>
+  (function () {
+    var code = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+    var cursor = 0;
+    var payload = "W3sibmFtZSI6IkFsdHJpYSIsIm5pY2siOiLmtpvmtpsiLCJ1cmwiOiJodHRwczovL2FsdHJpYTExMjIuZ2l0aHViLmlvLyIsImltZyI6Imh0dHBzOi8vYWx0cmlhMTEyMi5naXRodWIuaW8vaW1nL0FsdHJpYS5wbmcifSx7Im5hbWUiOiJXZW9zaGluIiwibmljayI6IuaZn+aZnyIsInVybCI6Imh0dHBzOi8vd2Vvc2hpbi5naXRodWIuaW8vIiwiaW1nIjoiaHR0cHM6Ly93ZW9zaGluLmdpdGh1Yi5pby9pbWcvYXZhdGFyLmpwZyJ9LHsibmFtZSI6Ik1hc3RlcmVuTHUiLCJuaWNrIjoi6Zyy6ZyyIiwidXJsIjoiaHR0cHM6Ly9ibG9nLm1hc3RlcmVuLnRvcC8iLCJpbWciOiJodHRwczovL2FsdHJpYTExMjIuZ2l0aHViLmlvLy9pbWcvbHVsdUF2YXRhci5naWYifV0=";
+
+    function decodeFriends() {
+      var bytes = Uint8Array.from(atob(payload), function (char) {
+        return char.charCodeAt(0);
+      });
+      return JSON.parse(new TextDecoder("utf-8").decode(bytes));
+    }
+
+    function revealFriends() {
+      var root = document.getElementById("friend-easter-egg");
+      if (!root || root.dataset.unlocked === "true") return;
+
+      root.dataset.unlocked = "true";
+      root.hidden = false;
+
+      var divider = document.createElement("hr");
+      var title = document.createElement("h2");
+      var grid = document.createElement("div");
+      title.textContent = "🤝 友链";
+      grid.className = "friend-egg__grid";
+
+      decodeFriends().forEach(function (friend) {
+        var card = document.createElement("div");
+        var link = document.createElement("a");
+        var inner = document.createElement("div");
+        var avatar = document.createElement("img");
+        var name = document.createElement("h3");
+        var nick = document.createElement("p");
+
+        card.className = "friend-egg__card";
+        link.className = "friend-egg__link";
+        inner.className = "friend-egg__inner";
+        avatar.className = "friend-egg__avatar";
+        name.className = "friend-egg__name";
+        nick.className = "friend-egg__nick";
+
+        link.href = friend.url;
+        link.target = "_blank";
+        link.rel = "noopener";
+        avatar.src = friend.img;
+        avatar.alt = friend.name;
+        name.textContent = friend.name;
+        nick.textContent = friend.nick;
+
+        inner.appendChild(avatar);
+        inner.appendChild(name);
+        inner.appendChild(nick);
+        link.appendChild(inner);
+        card.appendChild(link);
+        grid.appendChild(card);
+      });
+
+      root.appendChild(divider);
+      root.appendChild(title);
+      root.appendChild(grid);
+      root.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    window.addEventListener("keydown", function (event) {
+      var key = event.key.length === 1 ? event.key.toLowerCase() : event.key;
+      cursor = key === code[cursor] ? cursor + 1 : (key === code[0] ? 1 : 0);
+      if (cursor === code.length) {
+        cursor = 0;
+        revealFriends();
+      }
+    });
+  })();
+</script>
 
 
