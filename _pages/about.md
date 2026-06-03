@@ -30,7 +30,7 @@ author_profile: true
 - 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
 
 
-## 📚 Publication
+## 📚 Publication (* indicates co-first authors)
 
 {% include publications.md %}
 

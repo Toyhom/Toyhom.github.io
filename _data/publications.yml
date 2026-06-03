@@ -43,12 +43,12 @@
   category: "other"
 
 - title: "MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching"
-  authors: "Liang Yue, *<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  authors: "Liang Yue<sup>*</sup>, *<ins>Yihong Tang</ins><sup>*</sup>*, Kehai Chen, et al."
   venue: "NeurIPS 2025(CCF-A)."
   category: "other"
 
 - title: "ORPP: Self-Optimizing Role-playing Prompts to Enhance Language Model Capabilities"
-  authors: "Yifan Duan, *<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  authors: "Yifan Duan<sup>*</sup>, *<ins>Yihong Tang</ins><sup>*</sup>*, Kehai Chen, et al."
   venue: "EMNLP 2025(CCF-B)."
   category: "other"
 
@@ -91,6 +91,6 @@
   category: "preprint"
 
 - title: "The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents"
-  authors: "Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, et al."
+  authors: "Yifan Duan<sup>*</sup>, *<ins>Yihong Tang</ins><sup>*</sup>*, Xuefeng Bai, Kehai Chen, et al."
   venue: "Arxiv."
   category: "preprint"

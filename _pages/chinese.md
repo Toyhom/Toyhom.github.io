@@ -12,7 +12,7 @@ redirect_from:
 <!-- 🌱 唐义鸿的主页 -->
 
 ## 🌟 关于我 
-## 🌟 About Me 
+
 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); line-height: 1.6;">
     <p style="margin-bottom: 15px;">
         自2025年3月起，我在 <span style="color: #2196F3; font-weight: 500;">哈尔滨工业大学（深圳）</span> 计算机技术专业攻读博士学位，师从 <strong>Prof. Kehai Chen</strong>。自2025年9月起，我也在 <span style="color: #2196F3; font-weight: 500;">深圳河套学院（SLAI）</span> 进行研究学习。在此之前，我于 <span style="color: #2196F3; font-weight: 500;">天津大学</span> 获得了硕士学位，师从 <strong>Prof. Bo Wang</strong>。
@@ -31,7 +31,7 @@ redirect_from:
 - 2022年6月 - 2025年1月：计算技术硕士，天津大学，中国天津。导师：[Dr. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm) 。
 - 2018年9月 - 2022年6月：计算机科学与技术工学学士，东北大学秦皇岛分校，中国秦皇岛。
 
-## 📚 Publication
+## 📚 Publication（*表示共同一作）
 
 {% include publications.md %}
 
