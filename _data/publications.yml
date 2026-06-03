@@ -1,0 +1,79 @@
+- title: "CRPO: Character-centric Group Relative Policy Optimization for Role-aware Reasoning in Role-playing Agents"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, Liang Yue, Benyou Wang, Min Zhang."
+  venue: "ICML 2026 (CCF-A)."
+
+- title: "Thinking in Character: Advancing Role-Playing Agents with Role-Aware Reasoning"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  venue: "NeurIPS 2025(CCF-A)."
+
+- title: "MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching"
+  authors: "Liang Yue, *<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  venue: "NeurIPS 2025(CCF-A)."
+
+- title: "The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, et al."
+  venue: "ACL 2025."
+
+- title: "ORPP: Self-Optimizing Role-playing Prompts to Enhance Language Model Capabilities"
+  authors: "Yifan Duan, *<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  venue: "EMNLP 2025(CCF-B)."
+
+- title: "RoleBreak: Character Hallucination as a Jailbreak Attack in Role-Playing Systems"
+  authors: "*<ins>Yihong Tang</ins>*, Bo Wang, Xu Wang, et al."
+  venue: "COLING 2025(CCF-B)."
+  links:
+    - label: "Link"
+      url: "https://arxiv.org/pdf/2409.16727v1.pdf"
+
+- title: "MORPHEUS: Modeling Role from Personalized Dialogue History by Exploring and Utilizing Latent Space"
+  authors: "*<ins>Yihong Tang</ins>*, Bo Wang, Dongming Zhao, et al."
+  venue: "EMNLP 2024(CCF-B)."
+  links:
+    - label: "Link"
+      url: "https://aclanthology.org/2024.emnlp-main.437"
+
+- title: "Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona"
+  authors: "*<ins>Yihong Tang</ins>*, Bo Wang, Miao Fang, et al."
+  venue: "ACL 2023(CCF-A)."
+  links:
+    - label: "Link"
+      url: "https://aclanthology.org/2023.acl-long.299"
+
+- title: "REG: Retrieval via Emotion Similarity for Guiding Empathetic Dialogue Generation"
+  authors: "Xu Wang, Bo Wang, Yang Xiang, *<ins>Yihong Tang</ins>*, et al."
+  venue: "ACL 2026 (CCF-A)."
+
+- title: "QueryAligner: Customizing User Query to Match LLMs Preferences for Better Intent Recognition"
+  authors: "Yunlong Ma, Bo Wang, *<ins>Yihong Tang</ins>*, et al."
+  venue: "AAAI 2026(CCF-A)."
+
+- title: "ECC: Synergizing Emotion, Cause and Commonsense for Empathetic Dialogue Generation"
+  authors: "Xu Wang, Bo Wang, *<ins>Yihong Tang</ins>*, et al."
+  venue: "COLING 2025(CCF-B)."
+
+- title: "Exploiting Prompt-Induced Confidence for Black-Box Attacks on LLMs"
+  authors: "Meina Chen, *<ins>Yihong Tang</ins>*, Kehai Chen."
+  venue: "EMNLP 2025(CCF-B)."
+
+- title: "DialogBench: Evaluating LLMs as Human-like Dialogue Systems"
+  authors: "Jiao Ou, Junda Lu, Che Liu, *<ins>Yihong Tang</ins>*, et al."
+  venue: "NAACL 2024(CCF-B)."
+  links:
+    - label: "Link"
+      url: "https://aclanthology.org/2024.naacl-long.341"
+
+- title: "The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents"
+  authors: "Yifan Duan, *<ins>Yihong Tang</ins>*, Xuefeng Bai, Kehai Chen, et al."
+  venue: "Arxiv."
+
+- title: "Empowering Real-World: A Survey on the Technology, Practice, and Evaluation of LLM-driven Industry Agents"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, et al."
+  venue: "Arxiv."
+
+- title: "Character-R1: Enhancing Role-Aware Reasoning in Role-Playing Agents via RL VR"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Benyou Wang, Zeming Liu, Haifeng Wang, Min Zhang."
+  venue: "Arxiv."
+
+- title: "Through the Lens of Character: Resolving Modality-Role Interference in Multimodal Role-Playing Agent"
+  authors: "*<ins>Yihong Tang</ins>*, Kehai Chen, Xuefeng Bai, Min Zhang."
+  venue: "Arxiv."
