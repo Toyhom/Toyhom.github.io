@@ -46,6 +46,8 @@ author_profile: true
 - Emotion-Enhanced Agent Based on Role-Playing, 2025/01 - 2025/12, CCF-Baidu Songguo Fund, Participant (Student Lead) 
 - Reviewer: ACL ARR
 
+{% include friend-easter-egg.html lang="en" %}
+
 
 <!-- # 🌈 Life Beyond Research
 # 🎨 Creative Corner
