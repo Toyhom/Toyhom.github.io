@@ -81,7 +81,7 @@
 
   <section class="publication-section publication-section--featured">
     <div class="publication-section__header">
-      <h3 class="publication-section__title">Selected First-Author Publications</h3>
+      <h3 class="publication-section__title">Selected Publications</h3>
       <span class="publication-section__count">{{ representative_publications | size }} papers</span>
     </div>
     {% for pub in representative_publications %}
