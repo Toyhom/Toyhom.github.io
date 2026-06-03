@@ -57,6 +57,10 @@
     margin-bottom: 0.2rem;
   }
 
+  .publication-card__authors sup {
+    font-weight: 700;
+  }
+
   .publication-card__meta {
     align-items: center;
     color: #56616d;
