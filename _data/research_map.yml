@@ -1,5 +1,5 @@
 en:
-  core_title: "Human-like Role-Playing Agents"
+  core_title: "Human-like Agents"
   core_body: "I study how LLM agents can reason, remember roles, stay safe, and interact as believable characters."
   outcome: "Goal: turn LLM agents from generic tools into personalized, reliable interactive partners."
   pillars:
@@ -17,7 +17,7 @@ en:
       tag: "Where it works"
 
 zh:
-  core_title: "拟人化角色扮演智能体"
+  core_title: "拟人化智能体"
   core_body: "我研究如何让 LLM 智能体具备角色记忆、角色一致推理、安全鲁棒性和可信交互能力。"
   outcome: "目标：让智能体从通用工具进化为更个性化、更可靠的交互伙伴。"
   pillars:

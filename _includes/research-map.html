@@ -202,13 +202,11 @@
 
     var papers = JSON.parse(dataNode.textContent || "[]");
     var counts = {};
-    var phraseBank = [
-      "role-playing agents", "role-aware reasoning", "character consistency", "persona modeling",
-      "personalized dialogue", "dialogue generation", "empathetic dialogue", "LLM agents",
-      "reinforcement learning", "policy optimization", "prompt optimization", "safety",
-      "robustness", "jailbreak", "black-box attack", "benchmark", "LLM evaluation",
-      "industry agents", "multimodal agents", "human simulation"
-    ];
+    var stopwords = {
+      a: true, an: true, and: true, are: true, as: true, by: true, for: true, from: true,
+      in: true, into: true, it: true, its: true, of: true, on: true, or: true, the: true,
+      this: true, to: true, use: true, uses: true, with: true, while: true
+    };
 
     function addTerm(term, weight) {
       var key = String(term || "").trim().toLowerCase();
@@ -222,8 +220,9 @@
       });
 
       var text = [paper.title, paper.abstract].filter(Boolean).join(" ").toLowerCase();
-      phraseBank.forEach(function (phrase) {
-        if (text.indexOf(phrase.toLowerCase()) !== -1) addTerm(phrase, 1);
+      text.split(/[^a-z0-9]+/).forEach(function (token) {
+        if (!token || token.length < 4 || stopwords[token]) return;
+        addTerm(token, 0.35);
       });
     });
 
@@ -246,10 +245,10 @@
     };
 
     function clusterFor(term) {
-      if (/safety|jailbreak|attack|robustness|security|hallucination|trade-off/.test(term)) return "safety";
-      if (/reasoning|policy|reinforcement|prompt|optimization|chain-of-thought|rlvr/.test(term)) return "reasoning";
-      if (/dialogue|emotion|empathetic|generation|persona|personality|history|memory/.test(term)) return "dialogue";
-      if (/evaluation|benchmark|survey|industry|application|query|intent|preference/.test(term)) return "evaluation";
+      if (/safety|jailbreak|attack|robustness|security|hallucination|risk|conflict/.test(term)) return "safety";
+      if (/reasoning|policy|reinforcement|prompt|optimization|reward|thought|rlvr|cognition/.test(term)) return "reasoning";
+      if (/dialogue|emotion|empathy|empathetic|generation|persona|personality|history|memory|response/.test(term)) return "dialogue";
+      if (/evaluation|benchmark|survey|industry|application|query|intent|preference|metric|governance/.test(term)) return "evaluation";
       return "persona";
     }
 
