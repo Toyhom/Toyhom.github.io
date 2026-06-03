@@ -1,0 +1,13 @@
+{% assign pub = include.pub %}
+<article class="publication-card">
+  <div class="publication-card__title">{{ pub.title }}</div>
+  <div class="publication-card__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+  <div class="publication-card__meta">
+    <span>{{ pub.venue }}</span>
+    {% if pub.links %}
+      {% for link in pub.links %}
+        <a class="publication-card__link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</article>
