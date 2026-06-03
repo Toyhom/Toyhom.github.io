@@ -2,6 +2,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, Liang Yue, Benyou Wang, Min Zhang."
   venue: "ICML 2026 (CCF-A)."
   category: "representative"
+  keywords: ["role-playing agents", "role-aware reasoning", "reinforcement learning", "policy optimization", "character consistency"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2605.25511"
@@ -10,6 +11,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, et al."
   venue: "NeurIPS 2025(CCF-A)."
   category: "representative"
+  keywords: ["role-playing agents", "role-aware reasoning", "chain-of-thought", "character consistency", "LLM agents"]
   links:
     - label: "Paper"
       url: "https://papers.nips.cc/paper_files/paper/2025/hash/aacca7b6a20d157112205a44f42821c8-Abstract-Conference.html"
@@ -18,6 +20,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Bo Wang, Xu Wang, et al."
   venue: "COLING 2025(CCF-B)."
   category: "representative"
+  keywords: ["role-playing agents", "jailbreak", "character hallucination", "safety", "robustness"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2025.coling-main.494/"
@@ -26,6 +29,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Bo Wang, Dongming Zhao, et al."
   venue: "EMNLP 2024(CCF-B)."
   category: "representative"
+  keywords: ["personalized dialogue", "latent space", "persona modeling", "dialogue history", "role modeling"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2024.emnlp-main.437/"
@@ -34,6 +38,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Bo Wang, Miao Fang, et al."
   venue: "ACL 2023(CCF-A)."
   category: "representative"
+  keywords: ["personalized dialogue", "contrastive learning", "latent variables", "persona modeling", "dialogue generation"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2023.acl-long.299/"
@@ -42,11 +47,13 @@
   authors: "Xu Wang, Bo Wang, Yang Xiang, <strong><ins>Yihong Tang</ins></strong>, et al."
   venue: "ACL 2026 (CCF-A)."
   category: "other"
+  keywords: ["empathetic dialogue", "emotion retrieval", "dialogue generation", "emotion similarity", "retrieval augmentation"]
 
 - title: "QueryAligner: Customizing User Query to Match LLMs Preferences for Better Intent Recognition"
   authors: "Yunlong Ma, Bo Wang, <strong><ins>Yihong Tang</ins></strong>, et al."
   venue: "AAAI 2026(CCF-A)."
   category: "other"
+  keywords: ["query alignment", "intent recognition", "LLM preference", "user query", "instruction following"]
   links:
     - label: "Paper"
       url: "https://ojs.aaai.org/index.php/AAAI/article/view/40520"
@@ -55,6 +62,7 @@
   authors: "Liang Yue<sup>*</sup>, <strong><ins>Yihong Tang</ins><sup>*</sup></strong>, Kehai Chen, et al."
   venue: "NeurIPS 2025(CCF-A)."
   category: "other"
+  keywords: ["multi-agent teaching", "LLM training", "simulation", "collaboration", "instruction learning"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2506.02689"
@@ -63,6 +71,7 @@
   authors: "Yifan Duan<sup>*</sup>, <strong><ins>Yihong Tang</ins><sup>*</sup></strong>, Kehai Chen, et al."
   venue: "EMNLP 2025(CCF-B)."
   category: "other"
+  keywords: ["role-playing prompts", "prompt optimization", "self-optimization", "LLM capability", "role-playing agents"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2025.emnlp-main.1453/"
@@ -71,6 +80,7 @@
   authors: "Meina Chen, <strong><ins>Yihong Tang</ins></strong>, Kehai Chen."
   venue: "EMNLP 2025(CCF-B)."
   category: "other"
+  keywords: ["black-box attack", "prompt confidence", "LLM security", "adversarial attack", "robustness"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2025.findings-emnlp.692/"
@@ -79,6 +89,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, Xuefeng Bai, et al."
   venue: "ACL 2025 (Findings)."
   category: "other"
+  keywords: ["role-playing agents", "safety", "utility trade-off", "dialogue safety", "robustness"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2025.findings-acl.839/"
@@ -87,6 +98,7 @@
   authors: "Xu Wang, Bo Wang, <strong><ins>Yihong Tang</ins></strong>, et al."
   venue: "COLING 2025(CCF-B)."
   category: "other"
+  keywords: ["empathetic dialogue", "emotion cause", "commonsense", "dialogue generation", "emotion modeling"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2025.coling-main.367/"
@@ -95,6 +107,7 @@
   authors: "Jiao Ou, Junda Lu, Che Liu, <strong><ins>Yihong Tang</ins></strong>, et al."
   venue: "NAACL 2024(CCF-B)."
   category: "other"
+  keywords: ["dialogue evaluation", "benchmark", "human-like dialogue", "LLM evaluation", "dialogue systems"]
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2024.naacl-long.341/"
@@ -103,6 +116,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, Xuefeng Bai, Benyou Wang, Zeming Liu, Haifeng Wang, Min Zhang."
   venue: "Arxiv."
   category: "preprint"
+  keywords: ["role-playing agents", "role-aware reasoning", "reinforcement learning", "RLVR", "character consistency"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2601.04611"
@@ -111,6 +125,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, Xuefeng Bai, Min Zhang."
   venue: "Arxiv."
   category: "preprint"
+  keywords: ["multimodal agents", "role-playing agents", "modality-role interference", "character consistency", "vision-language"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2605.09443"
@@ -119,6 +134,7 @@
   authors: "<strong><ins>Yihong Tang</ins></strong>, Kehai Chen, et al."
   venue: "Arxiv."
   category: "preprint"
+  keywords: ["industry agents", "LLM agents", "survey", "evaluation", "real-world applications"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2510.17491"
@@ -127,6 +143,7 @@
   authors: "Yifan Duan<sup>*</sup>, <strong><ins>Yihong Tang</ins><sup>*</sup></strong>, Xuefeng Bai, Kehai Chen, et al."
   venue: "Arxiv."
   category: "preprint"
+  keywords: ["personality", "human simulation", "LLM agents", "agent behavior", "social simulation"]
   links:
     - label: "Paper"
       url: "https://arxiv.org/abs/2502.20859"

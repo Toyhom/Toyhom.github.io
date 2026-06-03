@@ -1,109 +1,294 @@
 {% if include.lang == "zh" %}
   {% assign map = site.data.research_map.zh %}
+  {% assign eyebrow = "论文驱动的研究星图" %}
+  {% assign source_note = "由标题、摘要与关键词自动聚合" %}
 {% else %}
   {% assign map = site.data.research_map.en %}
+  {% assign eyebrow = "Publication-driven constellation" %}
+  {% assign source_note = "Auto-built from titles, abstracts, and keywords" %}
 {% endif %}
 
 <style>
-  .research-map {
-    margin: 1rem 0 1.6rem;
+  .research-constellation {
+    margin: 1rem 0 1.7rem;
   }
 
-  .research-map__grid {
-    display: grid;
-    gap: 0.8rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .research-map__core {
-    align-items: center;
-    background: #f7faf9;
-    border: 1px solid #dfe8e4;
-    border-left: 5px solid #3f8f72;
-    border-radius: 6px;
+  .research-constellation__header {
+    align-items: flex-end;
     display: flex;
-    flex-direction: column;
-    grid-column: 1 / -1;
-    min-height: 8rem;
-    padding: 1.1rem 1rem;
-    text-align: center;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
   }
 
-  .research-map__core-title {
-    color: #1f2933;
-    font-size: 1.12rem;
-    font-weight: 800;
-    line-height: 1.3;
-    margin-bottom: 0.45rem;
-  }
-
-  .research-map__core-body {
-    color: #46515c;
-    line-height: 1.55;
-    max-width: 42rem;
-  }
-
-  .research-map__pillar {
-    background: #fff;
-    border: 1px solid #e5e9ee;
-    border-radius: 6px;
-    min-height: 8.2rem;
-    padding: 0.85rem;
-  }
-
-  .research-map__tag {
+  .research-constellation__eyebrow {
     color: #2f6f9f;
-    display: block;
-    font-size: 0.78rem;
-    font-weight: 700;
-    margin-bottom: 0.35rem;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.28rem;
     text-transform: uppercase;
   }
 
-  .research-map__title {
+  .research-constellation__title {
     color: #1f2933;
-    font-weight: 750;
-    line-height: 1.35;
+    font-size: 1.14rem;
+    font-weight: 800;
+    line-height: 1.28;
+  }
+
+  .research-constellation__note {
+    color: #66717c;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
+  .research-constellation__stage {
+    background:
+      radial-gradient(circle at 50% 50%, rgba(63, 143, 114, 0.12), transparent 30%),
+      linear-gradient(135deg, #fbfcfd 0%, #f4f7f8 100%);
+    border: 1px solid #e1e7ea;
+    border-radius: 8px;
+    min-height: 29rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .research-constellation__edges {
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .research-constellation__core {
+    background: #ffffff;
+    border: 1px solid #d7e5df;
+    border-left: 5px solid #3f8f72;
+    border-radius: 8px;
+    box-shadow: 0 10px 26px rgba(31, 41, 51, 0.08);
+    left: 50%;
+    max-width: 21rem;
+    padding: 0.95rem 1rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 58%;
+    z-index: 2;
+  }
+
+  .research-constellation__core-title {
+    color: #1f2933;
+    font-weight: 800;
+    line-height: 1.32;
     margin-bottom: 0.35rem;
   }
 
-  .research-map__body {
+  .research-constellation__core-body {
     color: #56616d;
-    font-size: 0.92rem;
-    line-height: 1.48;
+    font-size: 0.9rem;
+    line-height: 1.45;
   }
 
-  .research-map__outcome {
-    background: #f8f9fa;
-    border: 1px solid #e6e8eb;
-    border-radius: 6px;
-    color: #374151;
-    font-weight: 650;
-    line-height: 1.5;
-    margin-top: 0.8rem;
-    padding: 0.75rem 0.9rem;
+  .research-constellation__nodes {
+    inset: 0;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .research-constellation__node {
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 999px;
+    box-shadow: 0 7px 18px rgba(31, 41, 51, 0.12);
+    color: #1f2933;
+    font-weight: 760;
+    line-height: 1;
+    padding: 0.42rem 0.62rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .research-constellation__legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.7rem;
+  }
+
+  .research-constellation__legend-item {
+    align-items: center;
+    color: #55616d;
+    display: inline-flex;
+    font-size: 0.82rem;
+    gap: 0.34rem;
+  }
+
+  .research-constellation__swatch {
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.58rem;
+    width: 0.58rem;
   }
 
   @media (max-width: 640px) {
-    .research-map__grid {
-      grid-template-columns: 1fr;
+    .research-constellation__header {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .research-constellation__note {
+      white-space: normal;
+    }
+
+    .research-constellation__stage {
+      min-height: 34rem;
+    }
+
+    .research-constellation__core {
+      width: 72%;
     }
   }
 </style>
 
-<div class="research-map">
-  <div class="research-map__grid">
-    <div class="research-map__core">
-      <div class="research-map__core-title">{{ map.core_title }}</div>
-      <div class="research-map__core-body">{{ map.core_body }}</div>
+<div class="research-constellation">
+  <div class="research-constellation__header">
+    <div>
+      <div class="research-constellation__eyebrow">{{ eyebrow }}</div>
+      <div class="research-constellation__title">{{ map.core_title }}</div>
     </div>
-    {% for pillar in map.pillars %}
-      <div class="research-map__pillar">
-        <span class="research-map__tag">{{ pillar.tag }}</span>
-        <div class="research-map__title">{{ pillar.title }}</div>
-        <div class="research-map__body">{{ pillar.body }}</div>
-      </div>
-    {% endfor %}
+    <div class="research-constellation__note">{{ source_note }}</div>
   </div>
-  <div class="research-map__outcome">{{ map.outcome }}</div>
+
+  <div class="research-constellation__stage" id="research-constellation-{{ include.lang | default: 'en' }}">
+    <svg class="research-constellation__edges" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <div class="research-constellation__core">
+      <div class="research-constellation__core-title">{{ map.core_title }}</div>
+      <div class="research-constellation__core-body">{{ map.outcome }}</div>
+    </div>
+    <div class="research-constellation__nodes"></div>
+  </div>
+
+  <div class="research-constellation__legend">
+    <span class="research-constellation__legend-item"><span class="research-constellation__swatch" style="background:#8ed1b1;"></span>Role & persona</span>
+    <span class="research-constellation__legend-item"><span class="research-constellation__swatch" style="background:#8bb8d8;"></span>Reasoning</span>
+    <span class="research-constellation__legend-item"><span class="research-constellation__swatch" style="background:#f2a5a5;"></span>Safety</span>
+    <span class="research-constellation__legend-item"><span class="research-constellation__swatch" style="background:#d9b8f0;"></span>Dialogue</span>
+    <span class="research-constellation__legend-item"><span class="research-constellation__swatch" style="background:#e7cf7b;"></span>Evaluation & applications</span>
+  </div>
 </div>
+
+<script type="application/json" id="research-publications-{{ include.lang | default: 'en' }}">
+[
+{% for pub in site.data.publications %}
+  {
+    "title": {{ pub.title | jsonify }},
+    "abstract": {{ pub.abstract | jsonify }},
+    "category": {{ pub.category | jsonify }},
+    "keywords": {{ pub.keywords | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+</script>
+
+<script>
+  (function () {
+    var lang = "{{ include.lang | default: 'en' }}";
+    var root = document.getElementById("research-constellation-" + lang);
+    var dataNode = document.getElementById("research-publications-" + lang);
+    if (!root || !dataNode) return;
+
+    var papers = JSON.parse(dataNode.textContent || "[]");
+    var counts = {};
+    var phraseBank = [
+      "role-playing agents", "role-aware reasoning", "character consistency", "persona modeling",
+      "personalized dialogue", "dialogue generation", "empathetic dialogue", "LLM agents",
+      "reinforcement learning", "policy optimization", "prompt optimization", "safety",
+      "robustness", "jailbreak", "black-box attack", "benchmark", "LLM evaluation",
+      "industry agents", "multimodal agents", "human simulation"
+    ];
+
+    function addTerm(term, weight) {
+      var key = String(term || "").trim().toLowerCase();
+      if (!key) return;
+      counts[key] = (counts[key] || 0) + (weight || 1);
+    }
+
+    papers.forEach(function (paper) {
+      (paper.keywords || []).forEach(function (keyword) {
+        addTerm(keyword, 1.3);
+      });
+
+      var text = [paper.title, paper.abstract].filter(Boolean).join(" ").toLowerCase();
+      phraseBank.forEach(function (phrase) {
+        if (text.indexOf(phrase.toLowerCase()) !== -1) addTerm(phrase, 1);
+      });
+    });
+
+    var terms = Object.keys(counts)
+      .map(function (key) { return { key: key, count: counts[key] }; })
+      .sort(function (a, b) { return b.count - a.count || a.key.localeCompare(b.key); })
+      .slice(0, 18);
+
+    var positions = [
+      [50, 12], [72, 18], [86, 34], [83, 58], [68, 78], [50, 86],
+      [31, 78], [16, 60], [14, 36], [28, 18], [64, 33], [66, 63],
+      [36, 64], [35, 34], [78, 46], [22, 48], [51, 29], [50, 70]
+    ];
+    var colors = {
+      persona: "#8ed1b1",
+      reasoning: "#8bb8d8",
+      safety: "#f2a5a5",
+      dialogue: "#d9b8f0",
+      evaluation: "#e7cf7b"
+    };
+
+    function clusterFor(term) {
+      if (/safety|jailbreak|attack|robustness|security|hallucination|trade-off/.test(term)) return "safety";
+      if (/reasoning|policy|reinforcement|prompt|optimization|chain-of-thought|rlvr/.test(term)) return "reasoning";
+      if (/dialogue|emotion|empathetic|generation|persona|personality|history|memory/.test(term)) return "dialogue";
+      if (/evaluation|benchmark|survey|industry|application|query|intent|preference/.test(term)) return "evaluation";
+      return "persona";
+    }
+
+    function labelFor(term) {
+      return term.split(" ").map(function (part) {
+        if (part === "llm" || part === "rlvr") return part.toUpperCase();
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      }).join(" ");
+    }
+
+    var maxCount = Math.max.apply(null, terms.map(function (term) { return term.count; }));
+    var nodes = root.querySelector(".research-constellation__nodes");
+    var edges = root.querySelector(".research-constellation__edges");
+
+    terms.forEach(function (term, index) {
+      var position = positions[index % positions.length];
+      var cluster = clusterFor(term.key);
+      var weight = maxCount ? term.count / maxCount : 0;
+      var node = document.createElement("span");
+      var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+
+      node.className = "research-constellation__node";
+      node.textContent = labelFor(term.key);
+      node.style.left = position[0] + "%";
+      node.style.top = position[1] + "%";
+      node.style.background = colors[cluster];
+      node.style.fontSize = (0.78 + weight * 0.34).toFixed(2) + "rem";
+      node.style.opacity = (0.78 + weight * 0.22).toFixed(2);
+
+      line.setAttribute("x1", "50");
+      line.setAttribute("y1", "50");
+      line.setAttribute("x2", String(position[0]));
+      line.setAttribute("y2", String(position[1]));
+      line.setAttribute("stroke", colors[cluster]);
+      line.setAttribute("stroke-width", (0.28 + weight * 0.38).toFixed(2));
+      line.setAttribute("stroke-opacity", (0.24 + weight * 0.22).toFixed(2));
+
+      edges.appendChild(line);
+      nodes.appendChild(node);
+    });
+  })();
+</script>
