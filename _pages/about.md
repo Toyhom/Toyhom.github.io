@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: ""
 excerpt: "First-year PhD @ HITsz | NLP Researcher"
