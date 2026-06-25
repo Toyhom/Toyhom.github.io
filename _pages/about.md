@@ -25,7 +25,7 @@ author_profile: true
 <!-- # , advised by <strong>Prof. Benyou Wang</strong>  -->
 
 ## 🎓 Education
-- 2025.09 - Present: Research training in Computer Technology, Shenzhen Loop Area Institute, Shenzhen, China. Advisor: Prof. [Min Zhang](https://www.slai.edu.cn/teacher/149).
+- 2025.09 - Present: Joint training program, Shenzhen Loop Area Institute, Shenzhen, China. Advisor: Prof. [Min Zhang](https://www.slai.edu.cn/teacher/149).
 - 2025.03 - Present: Ph.D. in Computer Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China. Advisor: Prof. [Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai).
 - 2022.06 - 2025.01, M.Eng. in Computer Technology, Tianjin University, Tianjin, China. Advisor: Prof. [Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm).
 - 2018.09 - 2022.06, B.Eng. in Computer Science and Technology, Northeastern University at Qinhuangdao ,Qinhuangdao, China.
@@ -43,7 +43,7 @@ author_profile: true
 
 ## 🔬 Research Contribution
 - [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data): High-quality Chinese medical question-answer dataset.
-- Emotion-Enhanced Agent Based on Role-Playing, 2025/01 - 2025/12, CCF-Baidu Songguo Fund, Participant (Student Lead) 
+- CCF-Baidu Songguo Fund (CCF-百度松果基金), 2025/01 - 2025/12, Participant (Student Lead) 
 - Reviewer: ACL ARR
 
 {% include friend-easter-egg.html lang="en" %}

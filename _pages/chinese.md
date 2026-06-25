@@ -27,9 +27,9 @@ redirect_from:
 -------------
 
 ## 🎓 教育经历
-- 2025年9月 - 至今：计算技术研究学习，深圳河套学院，中国深圳。导师：[Prof. Min Zhang](https://www.slai.edu.cn/teacher/149)。
-- 2025年3月 - 至今：计算技术博士，哈尔滨工业大学（深圳），中国深圳。导师：[Prof. Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai) 。
-- 2022年6月 - 2025年1月：计算技术硕士，天津大学，中国天津。导师：[Prof. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm) 。
+- 2025年9月 - 至今：联合培养，深圳河套学院，中国深圳。导师：[Prof. Min Zhang](https://www.slai.edu.cn/teacher/149)。
+- 2025年3月 - 至今：计算机技术博士，哈尔滨工业大学（深圳），中国深圳。导师：[Prof. Kehai Chen](https://faculty.hitsz.edu.cn/chenkehai) 。
+- 2022年6月 - 2025年1月：计算机技术硕士，天津大学，中国天津。导师：[Prof. Bo Wang](https://cic.tju.edu.cn/faculty/wangbo/index.htm) 。
 - 2018年9月 - 2022年6月：计算机科学与技术工学学士，东北大学秦皇岛分校，中国秦皇岛。
 
 ## 🧭 研究图谱
@@ -44,7 +44,7 @@ redirect_from:
 
 ## 🔬 科研贡献
 - [Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data)：高质量的中文医疗问答数据集。
-- 基于角色扮演的情绪增强对话智能体，2025年1月 - 2025年12月，CCF-百度松果基金，参与（学生第一负责人）。
+- CCF-百度松果基金，2025年1月 - 2025年12月，参与（学生负责人）。
 - 审稿人：ACL ARR, NeurIPS, ICML, Neural Networks
 
 {% include friend-easter-egg.html lang="zh" %}
