@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "唐义鸿"
+title: "中文页面"
 permalink: /chinese/
 author_profile: true
 redirect_from:
